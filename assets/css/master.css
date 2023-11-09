@@ -1208,6 +1208,7 @@ main > .backimagea {
      object-fit: contain;
   scale: 3;
   z-index: 5;
+  transition: 0.4s;
   transform: translate(15%, 30%);
 }
 .stickelement > img {
