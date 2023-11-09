@@ -467,6 +467,9 @@ body{
     transform:translate(-50%,-50%);
     transition:.1s linear;
     pointer-events: none;
+    @media screen and (max-width:576px) {
+        width: 0;
+    }
     // background-blend-mode: difference;
 }
 main{
@@ -1364,6 +1367,7 @@ main{
             object-fit: contain;
             scale: 3;
             z-index: 5;
+            transition: .4s;
             transform: translate(15% , 30%);
             
         }

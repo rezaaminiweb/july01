@@ -6,11 +6,6 @@ a {
 body::-webkit-scrollbar {
   display: none;
 }
-@media screen and (max-width: 576px) {
-  #mouseover {
-    width: 0;
-  }
-}
 
 *, *::after, *::before {
   margin: 0;
@@ -458,6 +453,11 @@ body {
   transform: translate(-50%, -50%);
   transition: 0.1s linear;
   pointer-events: none;
+}
+@media screen and (max-width: 576px) {
+  #mouseover {
+    width: 0;
+  }
 }
 
 main {
