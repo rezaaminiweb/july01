@@ -835,7 +835,7 @@ main{
     // left: px;
     
     top: -400px;
-
+    transition: .4s;
     display: flex;
     // transform: translateY(0px) ;
     // animation: anime2 forwards 3s ;
@@ -843,6 +843,7 @@ main{
     // transform: scaleY(.5);
     z-index: 1;
     >img{
+        transition: .4s;
         @media screen and (max-width : 576px) {
             width: 100%;
             transform: translate(300px , 0);
